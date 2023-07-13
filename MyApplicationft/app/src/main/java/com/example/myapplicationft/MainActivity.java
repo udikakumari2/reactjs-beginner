@@ -8,6 +8,7 @@ import android.widget.Button;
 
 import android.widget.TextView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.button.MaterialButton;
 
@@ -26,7 +27,10 @@ public class MainActivity extends AppCompatActivity {
       loginbtn.setOnClickListener(new View.OnClickListener() {
           @Override
           public void onClick(View v) {
-             if(username.getText().toS)
+             if(username.getText().toString().equals("admin") && password.getText().toString().equals("admin")){
+                 Toast.makeText(MainActivity.this,"LOGGING SUCCESSFUL",Toast.LENGTH_SHORT).show();
+             }else
+                 Toast.makeText(MainActivity.this,"LOGGING FAILD!!",Toast.LENGTH_SHORT).show();
           }
       });
 
