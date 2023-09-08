@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="_30sdp">30sdp</dimen>
+    <dimen name="_103sdp">_103sdp</dimen>
+    <dimen name="_337sdp">_337sdp</dimen>
+    <dimen name="_160sdp">_160sdp</dimen>
+    <dimen name="_84sdp">_84sdp</dimen>
+    <dimen name="_12sdp">_12sdp</dimen>
+    <dimen name="_25sdp">_25sdp</dimen>
+    <dimen name="_200dsp">_200dsp</dimen>
+</resources>

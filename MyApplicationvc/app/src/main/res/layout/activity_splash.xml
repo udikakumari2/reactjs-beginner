@@ -13,13 +13,64 @@
         android:layout_height="@dimen/_84sdp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.414"
+        app:layout_constraintVertical_bias="0.424"
         app:srcCompat="@drawable/av" />
 
+    <TextView
+        android:id="@+id/logonameimg"
+        android:layout_width="307dp"
+        android:layout_height="99dp"
+        android:fontFamily="@font/apptext"
+        android:gravity="center"
+        android:text="A.VMessenger"
+        android:textColor="@color/black"
+        android:textSize="34sp"
 
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.747" />
+
+    <TextView
+        android:id="@+id/ownone"
+        android:layout_width="218dp"
+        android:layout_height="59dp"
+        android:text="From"
+
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.931"
+        />
+
+    <TextView
+        android:id="@+id/owntwo"
+        android:layout_width="181dp"
+        android:layout_height="55dp"
+        android:fontFamily="@font/spartan_thin"
+        android:gravity="center"
+        android:text="TechCoder A.V"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logonameimg"
+        app:layout_constraintVertical_bias="1.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
